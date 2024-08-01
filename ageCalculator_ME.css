@@ -73,22 +73,3 @@ button {
     }
 
 }
-
-/* @media screen and (max-width:385px) {
-    #parent {
-        height: 40vh;
-    }
-
-    #display {
-        font-size: small;
-    }
-
-    button {
-        font-size: small;
-    }
-
-    #inputt {
-        padding: 4px;
-        width: 80%;
-    }
-} */
