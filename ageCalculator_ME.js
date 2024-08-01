@@ -8,15 +8,14 @@ function user() {
     alert("Please Enter Your Year Of Birth");
     return false;
   }
-  if (userDate >= currentYear){
-    alert("Please Enter Correct Year of Birth")
+  if (userDate >= currentYear) {
+    alert("Please Enter Correct Year of Birth");
     return false;
   }
-  if (userDate < 1924){
-    alert("It is not Your Year of Birth, Enter Correct Year")
+  if (userDate < 1924) {
+    alert("It is not Your Year of Birth, Enter Correct Year");
     return false;
   }
 
-  displayAge.innerHTML = `Your Are ${currentYear - userDate} Years Old`;
+  displayAge.innerHTML = `You Are ${currentYear - userDate} Years Old`;
 }
-
